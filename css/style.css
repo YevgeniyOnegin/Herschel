@@ -221,6 +221,12 @@ footer {
 	.container {
 		padding: 10px;
 	}
+	.item_descr {
+		margin-left: 0px!important;
+	}
+	.main-item-container_item {
+		padding-left: 0px!important;
+	}
 }
 /*планшеты (от 769px до 990px)*/
 @media(min-width: 768px) and (max-width: 990px) {
@@ -273,6 +279,12 @@ footer {
 
 	.col-sm-12 {
 		width: 100%;
+	}
+	.item_descr {
+		margin-left: 0px!important;
+	}
+	.main-item-container_item {
+		padding-left: 0px!important;
 	}
 }
 /*мобильные экраны (до 768px)*/
@@ -353,12 +365,22 @@ footer {
 		-o-flex-direction: column!important;
 		flex-direction: column!important;
 	}
+	.item_descr {
+		margin-left: 0px!important;
+	}
+	.main-item-container_item {
+		padding-left: 0px!important;
+	}
 }
 /*item page*/
+.main-item-container_item {
+	padding-top: 80px;
+	justify-content: center;
+	padding-left: 60px;
+}
 .header-img {
 	width: 252px;
 	height: 395.4px;
-	padding: 80px 0 0 60px;
 }
 .main-item_item {
 	display: flex;
@@ -366,13 +388,14 @@ footer {
 	background-color: #f2f2f2;
 	border: 1px solid #979797;
 	padding-top: 0;
-	padding-bottom: 40px;
-	margin-bottom: 49px;
+	padding-bottom: 48.6px;
+	margin-bottom: 50.4px;
 }
 .item_descr {
 	display: flex;
 	flex-direction: column;
-	padding: 49px;
+	margin-left: 88px;
+	padding-top: 76px;
 }
 .item_descr h2 {
 	font-size: 36px;
@@ -383,7 +406,8 @@ footer {
 	letter-spacing: normal;
 	text-align: left;
 	color: #000000;
-	padding: 0;
+	margin-bottom: 20px;
+	margin: 0;
 }
 .item_descr h3 {
 	font-size: 24px;
@@ -394,6 +418,9 @@ footer {
 	letter-spacing: normal;
 	text-align: left;
 	color: #000000;
+	margin: 0;
+	padding-top: 56px;
+	margin-bottom: 13px;
 }
 .item_descr p {
 	font-size: 18px;
@@ -404,11 +431,13 @@ footer {
 	letter-spacing: normal;
 	text-align: left;
 	color: #000000;
+	max-width: 379px;
 }
 .item_descr ul {
 	list-style-type: none;
 	padding: 0;
-	line-height: 2.5;
+	margin: 0;
+	margin-bottom: 72px;
 }
 .item_descr ul li {
 	font-size: 18px;
@@ -418,9 +447,10 @@ footer {
 	letter-spacing: normal;
 	text-align: left;
 	color: #000000;
+	margin-bottom: 20px;
 }
 .main-item-btn_item {
-	width: 283.7px;
+	width: 100%;
 	height: 59px;
 	background-color: #f2f2f2;
 	border: solid 1px #3d3d3d;
@@ -435,7 +465,12 @@ h2 {
 	letter-spacing: normal;
 	text-align: center;
 	color: #000000;
-	padding: 49px;
+}
+.row_items {
+	padding-top: 50px;
+}
+.row_items .card {
+	background: #d8d8d8;
 }
 .social {
 	display: -webkit-flex;
@@ -449,7 +484,8 @@ h2 {
 	-o-flex-direction: row;
 	flex-direction: row;
 	justify-content: center;
-	padding: 49px;
+	padding-top: 50px;
+	padding-bottom: 50px;
 }
 .vk, .fb, .tg {
 	margin-right: 20px;
@@ -480,8 +516,5 @@ h2 {
 }
 .a_vk, .a_fb, .a_tg, .a_md {
 	margin: 0 auto;
-	line-height: 4;
-	width: 100%;
-	height: auto;
-	text-align: center;
+	padding: 18px;
 }
