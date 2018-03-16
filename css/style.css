@@ -472,46 +472,48 @@ h2 {
 .row_items .card {
 	background: #d8d8d8;
 }
-.social {
-	display: -webkit-flex;
-	display: -moz-flex;
-	display: -ms-flex;
-	display: -o-flex;
-	display: flex;
-	-webkit-flex-direction: row;
-	-moz-flex-direction: row;
-	-ms-flex-direction: row;
-	-o-flex-direction: row;
-	flex-direction: row;
-	justify-content: center;
-	padding-top: 50px;
-	padding-bottom: 50px;
+.vk a {
+	padding: 15px 0;
+  background: #5f81a9;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin: 5px 0px;
 }
-.vk, .fb, .tg {
-	margin-right: 20px;
-}
-.vk {
-	background: #5f81a9;
-}
-.vk:hover {
+.vk a:hover {
 	background: #1f81a9;
 }
-.fb {
-	background: #3a589c;
+.fb a {
+	padding: 15px 0;
+  background: #3a589c;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin: 5px 0px;
 }
-.fb:hover {
+.fb a:hover {
 	background: #0a589c;
 }
-.tg {
-	background: #419fd9;
+.tg a {
+	padding: 15px 0;
+  background: #419fd9;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin: 5px 0px;
 }
-.tg:hover {
+.tg a:hover {
 	background: #019fd9;
 }
-.md {
-	background: #00e272;
+.md a {
+	padding: 15px 0;
+  background: #00e272;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin: 5px 0px;
 }
-.md:hover {
+.md a:hover {
 	background: #50e272;
 }
 .a_vk, .a_fb, .a_tg, .a_md {
